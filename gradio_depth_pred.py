@@ -24,5 +24,5 @@ def create_demo(model):
         return [colored_depth, tmp.name]
     
     submit.click(on_submit, inputs=[input_image], outputs=[depth_image, raw_file])
-    examples = gr.Examples(examples=["examples/person_1.jpeg", "examples/person_2.jpeg", "examples/person-leaves.png", "examples/living-room.jpeg"],
+    examples = gr.Examples(examples=["examples/person_1.jpeg", "examples/person_2.jpeg", "examples/living-room.jpeg"],
                            inputs=[input_image])
