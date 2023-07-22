@@ -42,4 +42,4 @@ with gr.Blocks(css=css) as demo:
         <p><img src="https://visitor-badge.glitch.me/badge?page_id=shariqfarooq.zoedepth_demo_hf" alt="visitors"></p></center>''')
 
 if __name__ == '__main__':
-    demo.queue().launch()
+    demo.queue().launch(share=True)
